@@ -53,7 +53,9 @@ const Navbar = () => {
                   className="navbar-link resume-link"
                   href="/resume.pdf"
                   download
-                  style={{textDecoration:'underline'}}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}
                 >
                   Download Resume
                 </a>
